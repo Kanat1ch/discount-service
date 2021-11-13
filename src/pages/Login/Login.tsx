@@ -43,8 +43,8 @@ export const Login = () => {
             <div className='Login__title'>Вход</div>
             <Input
                 className='Login__input'
-                type='email'
-                placeholder='E-mail'
+                type='text'
+                placeholder='Имя пользователя'
                 onChange={(value => setUsername(value))}
             />
             <Input
